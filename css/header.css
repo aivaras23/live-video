@@ -1,0 +1,22 @@
+
+
+
+header {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:20px 100px;
+}
+header > img {
+    width:150px;
+}
+nav {
+    display:flex;
+    gap:40px;
+}
+
+nav > a {
+    text-decoration: none;
+    color:rgb(9, 9, 172);
+    font-weight: 600;
+}

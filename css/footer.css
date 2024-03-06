@@ -1,0 +1,19 @@
+footer {
+    display:flex;
+    justify-content: space-between;
+    padding:0 100px;
+    align-items: center;
+}
+.links {
+    display:flex;
+    gap:30px;
+    font-size: 30px;
+}
+.links > a {
+    color: rgb(161, 171, 224);
+}
+
+footer > p {
+
+    color:#111;
+}

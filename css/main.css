@@ -1,0 +1,46 @@
+main {
+    display:flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    padding:50px 100px;
+    height: 40rem;
+}
+
+.container {
+    display:flex;
+    flex-direction: column;
+    width:600px;
+}
+
+.container > h1 {
+    font-size: 80px;
+    font-weight: 700;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    color: rgb(8, 8, 137);
+    margin-bottom: 15px;
+}
+
+.container > p {
+    color:#444;
+    font-weight: 700;
+    line-height: 25px;
+}
+
+.download-link {
+    align-self: flex-start;
+    background: rgb(60, 43, 209);
+    padding:10px 30px;
+    color:#fff;
+    text-decoration: none;
+    margin-top:100px;
+    border-radius:3px;
+    box-shadow: 0px 4px 8px rgba(60, 43, 209, 0.2);
+}
+
+                body {
+                    background-image: url(./images/hero.png);
+                    background-repeat: no-repeat;
+                    background-position: 100% 20%;
+                    background-size: 50%;
+                }
