@@ -38,9 +38,3 @@ main {
     box-shadow: 0px 4px 8px rgba(60, 43, 209, 0.2);
 }
 
-                body {
-                    background-image: url(./images/hero.png);
-                    background-repeat: no-repeat;
-                    background-position: 100% 20%;
-                    background-size: 50%;
-                }
