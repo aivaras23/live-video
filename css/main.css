@@ -1,13 +1,14 @@
 main {
     display:flex;
-    margin-top: 50px;
-    margin-bottom: 300px;
-    padding: 50px 120px;
+    align-items: center;
+    margin: 0 120px;
+    min-height: calc(100vh - 160px);
 }
 
 .container {
     display:flex;
     flex-direction: column;
+    align-items: flex-start;
     width:600px;
 }
 
@@ -27,7 +28,6 @@ main {
 }
 
 .download-link {
-    align-self: flex-start;
     background: rgb(60, 43, 209);
     padding:10px 30px;
     color:#fff;
