@@ -2,14 +2,14 @@ header {
     display:flex;
     justify-content: space-between;
     align-items: center;
-    padding:20px 50px;
+    padding:20px 60px;
 }
 header > img {
     width:150px;
 }
 nav {
     display:flex;
-    gap:40px;
+    gap:60px;
 }
 
 nav > a {
