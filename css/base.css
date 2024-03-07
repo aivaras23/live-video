@@ -5,14 +5,9 @@
     font-family: sans-serif;
 }
 
-header *,
-main *,
-footer * {
-    z-index: 1;
-}
-
 .image-wrap {
     position: absolute;
     right: 0;
     width: 50%;
+    z-index: -1;
 }
