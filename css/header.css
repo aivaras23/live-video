@@ -16,4 +16,23 @@ nav > a {
     text-decoration: none;
     color:rgb(9, 9, 172);
     font-weight: 600;
+    transition: all 0.3s ease-in-out;
+    position:relative;
+}
+
+nav a::after {
+    width:0;
+    content:'';
+    position:absolute;
+    border-bottom: 3px solid rgb(9, 9, 172);
+    top:20px;
+    left:50%;
+    transition: all 0.3s ease-in-out;
+    transform: translateX(-50%);
+}
+nav a:hover {
+    filter: brightness(150%);
+}
+nav a:hover::after {
+    width:50%;
 }

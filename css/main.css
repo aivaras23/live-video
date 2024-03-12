@@ -35,5 +35,9 @@ main {
     margin-top:100px;
     border-radius:3px;
     box-shadow: 0px 6px 6px  rgba(60, 43, 209, 0.2);
+    transition: all 0.3s ease-in-out;
 }
 
+.download-link:hover {
+    filter: brightness(150%);
+}

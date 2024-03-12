@@ -13,6 +13,14 @@ footer {
     color: rgb(161, 171, 224);
 }
 
+.icon {
+    transition: all 0.3s ease-in-out;
+}
+
+.icon:hover {
+    filter: brightness(90%);
+}
+
 footer > p {
     color:#111;
 }
