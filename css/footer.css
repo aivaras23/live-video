@@ -10,17 +10,23 @@ footer {
     font-size: 30px;
 }
 .links > a {
-    color: rgb(161, 171, 224);
+    color: #a1abe0;
 }
-
 .icon {
     transition: all 0.3s ease-in-out;
 }
-
 .icon:hover {
     filter: brightness(90%);
 }
-
 footer > p {
-    color:#111;
+    color:#fff;
+}
+
+@media (max-width: 768px) { 
+    footer {
+        flex-direction: column;
+        gap:20px;
+        margin:0;
+        margin-bottom: 20px;
+    }
 }
