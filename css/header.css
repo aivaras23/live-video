@@ -3,12 +3,14 @@ header {
     justify-content: space-between;
     align-items: center;
     margin:20px 60px;
+    flex-wrap: wrap;
 }
 header > img {
     width:150px;
 }
 nav {
     display:flex;
+    flex-wrap: wrap;
     gap:60px;
 }
 
