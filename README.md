@@ -19,7 +19,7 @@ Design: [Live video](https://dribbble.com/shots/4957408-Live-video-illustration/
 
 ## 🎯 Project features/goals
 
--   **NO responsive design**
+-   responsive design
 -   Github pages
 -   favicon
 -   fontAwesome icons
